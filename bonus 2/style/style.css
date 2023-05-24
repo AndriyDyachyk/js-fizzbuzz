@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(8, 59, 76);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#numbers{
+    display:flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#numbers > div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.number{
+    background-color: rgb(19, 137, 178);
+}
+
+.fizz{
+    background-color: rgb(12, 214, 161);
+}
+
+.buzz{
+    background-color: rgb(255, 209, 102);
+}
+
+.fizzbuzz{
+    background-color: rgb(240, 70, 111);
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+}
